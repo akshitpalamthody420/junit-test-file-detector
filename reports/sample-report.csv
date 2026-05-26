@@ -1,0 +1,5 @@
+file_path,is_test_file,test_method_count,framework,status
+"sample-project/src/main/java/com/example/Calculator.java",false,0,"NONE","OK"
+"sample-project/src/main/java/com/example/UserService.java",false,0,"NONE","OK"
+"sample-project/src/test/java/com/example/CalculatorTest.java",true,2,"JUNIT","OK"
+"sample-project/src/test/java/com/example/UserServiceTest.java",true,1,"JUNIT","OK"
