@@ -128,19 +128,3 @@ The main static-analysis logic is in:
 ```text
 src/main/java/com/akshit/testdetector/TestFileDetector.java
 ```
-
-## How to make it more Fixate-like
-
-Next features to add:
-
-1. Detect test methods with no assertions.
-2. Detect `Thread.sleep(...)` inside tests.
-3. Detect `assertTrue(true)` or other pointless assertions.
-4. Output issue-level CSV rows:
-
-```csv
-file_path,method_name,issue_type,line,message
-CalculatorTest.java,addsTwoNumbers,NO_ASSERTION,12,"Test method has no assertion"
-```
-
-That would turn this from a test file detector into a test quality analyser.
